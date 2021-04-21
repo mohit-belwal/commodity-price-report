@@ -1,0 +1,27 @@
+{
+  "name": "commodity_price_report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
